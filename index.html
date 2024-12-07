@@ -19,7 +19,7 @@
 
 			.container {
 				margin: 0 auto;
-				margin-top: 32px;
+				margin: 16px;
 				border-radius: 4px;
 				padding: 2rem;
 				max-width: 360px;
@@ -27,7 +27,11 @@
 				background-color: rgba(0, 0, 0, 0.534);
 				backdrop-filter: blur(40px) brightness(0.55) contrast(0%) opacity(10%) saturate(0%);
 			}
-
+                         @media only screen and (min-width:1140px){
+			    .container {
+				    margin-top: 32px;
+			    }	 
+			 }
 			.input_box {
 				display: flex;
 				flex-direction: column;
